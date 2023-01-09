@@ -4,7 +4,7 @@ original_dir = os.getcwd()
 dir_name = 'plots'
 os.chdir(dir_name)
 image_paths = []
-page = '<html><body>'
+page = '<!DOCTYPE html><html><head><meta charset="UTF-8"></head><body>'
 page += '<h1>Plots</h1>'
 dirs = [d for d in os.listdir(".") if os.path.isdir(d)]
 for d in sorted(dirs):
